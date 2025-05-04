@@ -34,7 +34,7 @@
 - Git LFS
 
 ##  Büyük Dosyalar
-GitHub'ın sınırları nedeniyle bazı dosyalar LFS ile yüklenmiştir. Erişmek için:
+GitHub'ın sınırları nedeniyle bazı dosyalar LFS ile yüklenmeyi denenmiştir şuanlık başarılı olamamıştır.
 
 - [TF-IDF (lemmatized)](https://github.com/enesgadis/dogaldil/blob/master/output/tfidf_lemmatized.csv)
 - [TF-IDF (stemmed)](https://github.com/enesgadis/dogaldil/blob/master/output/tfidf_stemmed.csv)
