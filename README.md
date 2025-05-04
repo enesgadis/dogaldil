@@ -19,7 +19,7 @@
 ### 4. Vektörleştirme: TF-IDF ve Word2Vec
 - Her iki ön işlenmiş metin üzerinde TF-IDF uygulanarak büyük boyutlu vektör matrisleri oluşturuldu.
 - 16 farklı parametre kombinasyonu ile Word2Vec modelleri eğitildi (window, min_count, vector_size).
-- [Vektörleştirme kodlarına göz at](https://github.com/enesgadis/dogaldil/tree/master/analysis/vectorization)
+- [Vektörleştirme kodlarına göz at](https://github.com/enesgadis/dogaldil/tree/master/vectorization)
 
 ### 5. Benzerlik Sınıflandırması
 - Rastgele seçilen başlıklarla diğer başlıklar arasındaki cosine similarity hesaplandı.
