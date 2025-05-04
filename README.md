@@ -1,5 +1,5 @@
 
-## 🚀 Projede Uygulanan Adımlar
+##  Projede Uygulanan Adımlar
 
 ### 1. Veri Kümesi Tanıtımı
 - Kullanılan veri kümesi: `abcnews-date-text.csv`
@@ -25,7 +25,7 @@
 - Rastgele seçilen başlıklarla diğer başlıklar arasındaki cosine similarity hesaplandı.
 - En benzer cümleler ekrana yazdırıldı.
 
-## 🔬 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 - Python 3.11
 - scikit-learn
 - Gensim
@@ -33,15 +33,15 @@
 - Pandas / Numpy
 - Git LFS
 
-## 📎 Büyük Dosyalar
+##  Büyük Dosyalar
 GitHub'ın sınırları nedeniyle bazı dosyalar LFS ile yüklenmiştir. Erişmek için:
 
 - [TF-IDF (lemmatized)](https://github.com/enesgadis/dogaldil/blob/master/output/tfidf_lemmatized.csv)
 - [TF-IDF (stemmed)](https://github.com/enesgadis/dogaldil/blob/master/output/tfidf_stemmed.csv)
 
-## 👤 Yazar
+##  Yazar
 - **Enes Gadiş**  
-  `2107231053` – [GitHub Profilim](https://github.com/enesgadis)
+  – [GitHub Profilim](https://github.com/enesgadis)
 
 ---
 
