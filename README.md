@@ -2,7 +2,7 @@
 ##  Projede Uygulanan Adımlar
 
 ### 1. Veri Kümesi Tanıtımı
-- Kullanılan veri kümesi: `abcnews-date-text.csv`
+- Kullanılan veri kümesi: `abcnews-date-text.csv` (https://www.kaggle.com/datasets/therohk/million-headlines)
 - Toplam başlık: 1.1 milyon
 - Amaç: Aynı anlamı taşıyan veya birbirine çok benzeyen başlıkları tespit etmek
 
@@ -13,7 +13,7 @@
 ### 3. Ön İşleme Adımları
 - Noktalama ve stopword temizliği
 - Lemmatization ve stemming uygulanarak iki ayrı veri seti oluşturuldu.
-  - [Lemmatized CSV](https://github.com/enesgadis/dogaldil/blob/master/output/lemmatized_sentences.csv)
+  - [Lemmatized CSV](https://github.com/enesgadis/dogaldil/blob/master/output/lemmatized_sentences.csv)  
   - [Stemmed CSV](https://github.com/enesgadis/dogaldil/blob/master/output/stemmed_sentences.csv)
 
 ### 4. Vektörleştirme: TF-IDF ve Word2Vec
@@ -33,6 +33,57 @@
 - Pandas / Numpy
 - Git LFS
 
+##  Kurulum ve Kullanım
+
+### Gerekli Kütüphaneler
+
+Aşağıdaki komut ile tüm bağımlılıkları yükleyebilirsiniz:
+
+
+pip install -r requirements.txt
+
+
+### Adım Adım Uygulama
+
+1. **Ön İşleme**  
+   - Noktalama işaretleri ve stopword'ler temizlenir.
+   - Lemmatizasyon ve stemming işlemleri uygulanır.
+   
+   python preprocessing.py
+   
+
+2. **Vektörleştirme (TF-IDF & Word2Vec)**  
+   - Temizlenmiş verilerden TF-IDF matrisleri oluşturulur.
+   - Word2Vec modelleri 16 farklı parametre kombinasyonu ile eğitilir.
+   
+   python vectorization.py
+   
+
+3. **Benzerlik Hesaplama**  
+   - Cosine similarity ile en benzer başlıklar sıralanır.
+   
+   python similarity.py
+   
+
+## 🔬 Uygulanan Analizler ve Kodlar
+
+| Adım | Açıklama | Bağlantı |
+|------|----------|----------|
+|  Zipf Analizi | Kelime frekans dağılımı | [zipf_analysis.py](analysis/zipf_analysis.py) |
+|  Temizleme | Stopword, noktalama temizliği | [preprocessing.py](analysis/preprocessing.py) |
+|  Vektörleştirme | TF-IDF, Word2Vec uygulamaları | [vectorization.py](analysis/vectorization.py) |
+|  Benzerlik Tespiti | Cosine similarity | [similarity.py](analysis/similarity.py) |
+
+##  Çıktı Dosyaları
+
+| Dosya | Açıklama | Durum |
+|-------|----------|--------|
+| `output/lemmatized_sentences.csv` | Lemmatize edilmiş cümleler | ✔️ |
+| `output/stemmed_sentences.csv` | Stemmed cümleler | ✔️ |
+| `output/tfidf_lemmatized.csv` | TF-IDF matrisi (lemmatize) | ⚠️ GitHub limiti nedeniyle yüklenemedi |
+| `output/tfidf_stemmed.csv` | TF-IDF matrisi (stemmed) | ⚠️ GitHub limiti nedeniyle yüklenemedi |
+
+> Not: 100 MB üzerindeki dosyalar **Git LFS** ile yüklenmek istenmiş ancak GitHub sınırları nedeniyle başarısız olmuştur.
 ##  Büyük Dosyalar
 GitHub'ın sınırları nedeniyle bazı dosyalar LFS ile yüklenmeyi denenmiştir şuanlık başarılı olamamıştır.
 
