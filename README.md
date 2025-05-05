@@ -70,9 +70,9 @@ pip install -r requirements.txt
 | Adım | Açıklama | Bağlantı |
 |------|----------|----------|
 |  Zipf Analizi | Kelime frekans dağılımı | [zipf_analysis.py](analysis/zipf_analysis.py) |
-|  Temizleme | Stopword, noktalama temizliği | [preprocessing.py](analysis/preprocessing.py) |
-|  Vektörleştirme | TF-IDF, Word2Vec uygulamaları | [vectorization.py](analysis/vectorization.py) |
-|  Benzerlik Tespiti | Cosine similarity | [similarity.py](analysis/similarity.py) |
+|  Temizleme | Stopword, noktalama temizliği | [preprocessing.py](preprocessing.py) |
+|  Vektörleştirme | TF-IDF, Word2Vec uygulamaları | [vectorization.py](vectorization.py) |
+|  Benzerlik Tespiti | Cosine similarity | [similarity.py](similarity.py) |
 
 ##  Çıktı Dosyaları
 
