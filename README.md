@@ -72,7 +72,7 @@ pip install -r requirements.txt
 |  Zipf Analizi | Kelime frekans dağılımı | [zipf_analysis.py](analysis/zipf_analysis.py) |
 |  Temizleme | Stopword, noktalama temizliği | [preprocessing.py](preprocessing/preprocess.py) |
 |  Vektörleştirme | TF-IDF, Word2Vec uygulamaları | [vectorization](vectorization) |
-|  Benzerlik Tespiti | Cosine similarity | [similarity.py](similarity.py) |
+|  Benzerlik Tespiti | Cosine similarity | [similarity.py](similarity_results.txt) |
 
 ##  Çıktı Dosyaları
 
