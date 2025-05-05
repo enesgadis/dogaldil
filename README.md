@@ -78,10 +78,10 @@ pip install -r requirements.txt
 
 | Dosya | Açıklama | Durum |
 |-------|----------|--------|
-| `output/lemmatized_sentences.csv` | Lemmatize edilmiş cümleler | ✔️ |
-| `output/stemmed_sentences.csv` | Stemmed cümleler | ✔️ |
-| `output/tfidf_lemmatized.csv` | TF-IDF matrisi (lemmatize) | ⚠️ GitHub limiti nedeniyle yüklenemedi |
-| `output/tfidf_stemmed.csv` | TF-IDF matrisi (stemmed) | ⚠️ GitHub limiti nedeniyle yüklenemedi |
+| `output/lemmatized_sentences.csv` | Lemmatize edilmiş cümleler | ✔ |
+| `output/stemmed_sentences.csv` | Stemmed cümleler | ✔ |
+| `output/tfidf_lemmatized.csv` | TF-IDF matrisi (lemmatize) |  GitHub limiti nedeniyle yüklenemedi |
+| `output/tfidf_stemmed.csv` | TF-IDF matrisi (stemmed) |  GitHub limiti nedeniyle yüklenemedi |
 
 > Not: 100 MB üzerindeki dosyalar **Git LFS** ile yüklenmek istenmiş ancak GitHub sınırları nedeniyle başarısız olmuştur.
 ##  Büyük Dosyalar
@@ -96,7 +96,7 @@ GitHub'ın sınırları nedeniyle bazı dosyalar LFS ile yüklenmeyi denenmişti
 
 ---
 
-## 📄 Rapor
+##  Rapor
 Tüm süreç PDF rapor olarak da sunulmuştur:  
-👉 [PDF Raporu Görüntüle](https://github.com/enesgadis/dogaldil/blob/master/2107231053%20Enes%20Gadiş.pdf)
+ [PDF Raporu Görüntüle](https://github.com/enesgadis/dogaldil/blob/master/2107231053%20Enes%20Gadiş.pdf)
 
