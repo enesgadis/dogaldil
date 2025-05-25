@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files
+data/abcnews-date-text.csv
+
+# Large output files
+output/tfidf_*.csv
+# *.pkl  # Commented out to allow assignment2 results
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (optional, if needed)
+# models/*.model
