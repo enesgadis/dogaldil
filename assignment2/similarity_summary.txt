@@ -1,0 +1,104 @@
+ÖDEV 2 - BENZERLİK ANALİZİ ÖZET RAPORU
+================================================================================
+
+Query metni: australia contribute million aid iraq
+
+
+🔍 Model: tfidf_lemmatized
+----------------------------------------
+1. [0.3874] oil price contribute massive caltex turnaround
+2. [0.2924] aid group ship water iraq
+3. [0.2779] aid reach iraq thursday
+4. [0.2743] un brings food aid iraq
+5. [0.2577] recycling save million dollar
+
+🔍 Model: tfidf_stemmed
+----------------------------------------
+
+🔍 Model: lemmatized_model_cbow_window2_dim100
+----------------------------------------
+1. [0.9999] australia likely help iraq rebuild rural
+2. [0.9999] australia order embassy spy home iraq
+3. [0.9999] u may move set interim authority iraq
+4. [0.9999] u farmer eye australia iraq wheat contract
+5. [0.9999] un must play role iraq france
+
+🔍 Model: lemmatized_model_cbow_window2_dim300
+----------------------------------------
+1. [1.0000] australia order embassy spy home iraq
+2. [1.0000] australia likely help iraq rebuild rural
+3. [1.0000] u farmer eye australia iraq wheat contract
+4. [1.0000] mine delay aid ship iraq port
+5. [1.0000] un aid convoy expected deliver food iraq
+
+🔍 Model: lemmatized_model_cbow_window4_dim100
+----------------------------------------
+1. [0.9999] australia order embassy spy home iraq
+2. [0.9999] australia likely help iraq rebuild rural
+3. [0.9999] u may move set interim authority iraq
+4. [0.9999] un must play role iraq france
+5. [0.9999] u farmer eye australia iraq wheat contract
+
+🔍 Model: lemmatized_model_cbow_window4_dim300
+----------------------------------------
+1. [1.0000] australia order embassy spy home iraq
+2. [1.0000] u farmer eye australia iraq wheat contract
+3. [1.0000] australia likely help iraq rebuild rural
+4. [1.0000] abc cameraman australia first casualty iraq
+5. [1.0000] uk warns final phase iraq stand
+
+🔍 Model: lemmatized_model_skipgram_window2_dim100
+----------------------------------------
+1. [0.9991] u farmer eye australia iraq wheat contract
+2. [0.9990] uk warns final phase iraq stand
+3. [0.9989] role australia post saddam downer
+4. [0.9989] australia likely help iraq rebuild rural
+5. [0.9988] un must play role iraq france
+
+🔍 Model: lemmatized_model_skipgram_window2_dim300
+----------------------------------------
+1. [0.9997] u farmer eye australia iraq wheat contract
+2. [0.9997] russia refuse rule veto iraq
+3. [0.9996] un must play role iraq france
+4. [0.9996] britain set fresh demand iraq disarm
+5. [0.9996] uk warns final phase iraq stand
+
+🔍 Model: lemmatized_model_skipgram_window4_dim100
+----------------------------------------
+1. [0.9974] uk warns final phase iraq stand
+2. [0.9972] u farmer eye australia iraq wheat contract
+3. [0.9959] role australia post saddam downer
+4. [0.9956] quick victory quagmire iraq analyst
+5. [0.9953] bomber leave england iraq
+
+🔍 Model: lemmatized_model_skipgram_window4_dim300
+----------------------------------------
+1. [0.9991] u farmer eye australia iraq wheat contract
+2. [0.9989] role australia post saddam downer
+3. [0.9986] uk warns final phase iraq stand
+4. [0.9985] quick victory quagmire iraq analyst
+5. [0.9982] bomber leave england iraq
+
+🔍 Model: stemmed_model_cbow_window2_dim100
+----------------------------------------
+
+🔍 Model: stemmed_model_cbow_window2_dim300
+----------------------------------------
+
+🔍 Model: stemmed_model_cbow_window4_dim100
+----------------------------------------
+
+🔍 Model: stemmed_model_cbow_window4_dim300
+----------------------------------------
+
+🔍 Model: stemmed_model_skipgram_window2_dim100
+----------------------------------------
+
+🔍 Model: stemmed_model_skipgram_window2_dim300
+----------------------------------------
+
+🔍 Model: stemmed_model_skipgram_window4_dim100
+----------------------------------------
+
+🔍 Model: stemmed_model_skipgram_window4_dim300
+----------------------------------------
