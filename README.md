@@ -1,5 +1,4 @@
-# ABCNews NLP Project - Assignment 1 & 2
-
+# ABCNews NLP Project 
 Bu proje, ABC News Headlines dataset'i üzerinde doğal dil işleme teknikleri kullanılarak metin ön işleme, vektörleştirme ve benzerlik analizi gerçekleştirmektedir.
 
 ## 📊 Proje Özeti
@@ -30,12 +29,6 @@ pip install -r requirements.txt
 │   ├── create_tfidf.py
 │   ├── train_word2vec.py
 │   └── test_similarity.py
-├── assignment2/                   # Ödev 2 - Benzerlik Analizi
-│   ├── similarity_calculator.py
-│   ├── evaluation_system.py
-│   ├── jaccard_similarity_matrix.csv
-│   ├── jaccard_similarity_heatmap.png
-│   └── comprehensive_evaluation_report.txt
 ├── output/                        # İşlenmiş veriler
 │   ├── lemmatized_sentences.csv
 │   ├── stemmed_sentences.csv
@@ -52,7 +45,7 @@ pip install -r requirements.txt
 
 ### Ödev 1: Veri Ön İşleme ve Model Eğitimi
 
-```bash
+
 # 1. Veri ön işleme
 python preprocessing/preprocess.py
 
@@ -64,17 +57,9 @@ python vectorization/train_word2vec.py
 
 # 4. Zipf analizi
 python zipf_analysis.py
-```
 
-### Ödev 2: Benzerlik Analizi ve Değerlendirme
 
-```bash
-# Kapsamlı benzerlik analizi ve değerlendirme
-python assignment2/evaluation_system.py
 
-# Sadece benzerlik hesaplama
-python assignment2/similarity_calculator.py
-```
 
 ## 📈 Ödev 2 - Benzerlik Analizi Sonuçları
 
@@ -118,11 +103,7 @@ En yüksek tutarlılık gösteren model çiftleri:
 
 ## 📊 Çıktı Dosyaları
 
-### Assignment 2 Sonuçları
-- `jaccard_similarity_matrix.csv`: Model tutarlılık matrisi
-- `jaccard_similarity_heatmap.png`: Görsel tutarlılık matrisi
-- `comprehensive_evaluation_report.txt`: Detaylı analiz raporu
-- `similarity_results.pkl`: Ham benzerlik sonuçları
+
 
 ### Model Dosyaları
 - **TF-IDF**: `output/tfidf_lemmatized.csv`, `output/tfidf_stemmed.csv`
